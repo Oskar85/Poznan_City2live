@@ -82,6 +82,7 @@ header h2 span {
 header nav {
 	display: inline-block;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 
 header nav li {
@@ -91,7 +92,6 @@ header nav li {
 
 header .button {
 	display: inline-block;
-	margin-right: 35px;
 	margin-top: 60px;
 
 }

@@ -1,0 +1,720 @@
+@font-face {
+	font-family: 'LeagueGothic-Regular';
+	src: url('../fonts/LeagueGothic-Regular.otf');
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	font-family: 'LeagueGothic-Regular';
+}
+
+header {
+	overflow: hidden;
+	text-align: center;
+}
+
+header .social {
+	float: right;
+	margin-right: 30px;
+	margin-top: 15px;
+}
+
+header .social a {
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	cursor: pointer;
+    margin-right: 8px;
+	background: url(../pic/social.png) no-repeat;
+}
+
+header .social a:hover {
+	transform: scale(1.5);
+}
+
+header .social a.ev {
+	background-position: 0 0;
+}
+
+header .social a.tw {
+	background-position: -23px 0;
+}
+
+header .social a.pi {
+	background-position: -46px 0;
+}
+
+header .social a.li {
+	background-position: -68px 0;
+}
+
+header .social a.fb {
+	background-position: -92px 0;
+}
+
+header .social a.de {
+	background-position: -114px 0;
+}
+
+header h2 {
+	position: absolute;
+	left: 50%;
+	margin-left:-86.5px;
+	width: 173px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	color: #076e9f;
+	font-size: 2rem;
+}
+header h2 span {
+	color: #22aaec;
+}
+
+.wrap {
+	display: block;
+    width: 360px;
+    margin: 0 auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 20px;
+}
+
+header nav li {
+	float: left;
+	margin-right: 35px;
+}
+
+header .button {
+	display: inline-block;
+	margin-right: 35px;
+	margin-top: 60px;
+
+}
+
+header .button a {
+	font-family: Arial;
+	display: block;
+	box-shadow:0px 1px 1px #469BBF;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.625rem;
+	padding: 7px 17px;
+	border: 1px solid #045279;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom, #0879A8 0%, #066698 100%);
+	text-shadow: 0 2px 1px #222;
+}
+
+header nav a {
+	display: block;
+	font-family: Arial;
+	font-size: 0.625rem;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+section.main {
+	position: relative;
+	margin-top: 20px;
+	border-top: 3px solid #22aaec;
+	border-bottom: 3px solid #22aaec;;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	height: 438px;
+	text-align: center;
+	text-transform: uppercase;
+	background: url('../bg/main-img1.png') no-repeat;
+	background-size: cover;
+}
+
+section.main h1 {
+	display: inline-block;
+	padding: 18px 30px;
+	background: rgba(255,255,255,0.8);
+	font-size: 3.75rem;
+	color: #076e9f;
+}
+
+section.main h3 {
+	margin-top: 20px;
+	display: inline-block;
+	padding: 13px 12px;
+	background: rgba(255,255,255,0.8);
+	font-size: 1.875rem;
+	color: #076e9f;
+}
+
+section span {
+	color: #22aaec;
+}
+
+.main-bottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 120px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: flex-end;
+	align-items: center;
+	flex-wrap: nowrap;
+	background: rgba(3, 4, 2, 0.5);;
+}
+
+.main-person {
+	position: relative;
+	font-family: 'Arial';
+	font-style: italic;
+	font-size: 0.5625rem;
+	width: 155px;
+	height: 69px;
+	background: #edeceb;
+
+}
+
+.main-person a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+}
+
+.main-person a img {
+	float: left;
+	position: absolute;
+	left: -24%;
+	top: -2%;
+
+}
+
+.main-person .description {
+	text-align: left;
+	width: 100px;
+	float: right;
+	padding-right: 10px;
+	margin-top: 5px;
+} 
+
+.main-person a span {
+	text-transform: none;
+	line-height: 0.95rem;
+	color: #515151;
+}
+
+.main-person a span:last-child {
+	font-style: normal;
+	color: #828282;
+	margin-top: 5px;
+}
+
+.main-container {
+	width: 100%;
+	height: 570px;
+} 
+
+aside {
+	float: left;
+	/*overflow: hidden;*/
+	width: 230px;
+    height: 570px;
+}
+
+aside .wrap {
+	overflow: hidden;
+	width: 230px;
+	height: 570px;
+}
+
+aside .first-block {
+	float: right;
+	width: 200px;
+	height: 170px;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 32px 25px 15px 0px;
+}
+
+aside .first-block h4 {
+	text-transform: uppercase;
+	font-size: 1.375rem;
+	color: #076e9f;
+	margin-bottom: 15px;
+}
+
+aside .first-block span {
+	font-family: 'Arial';
+	font-size: 0.625rem;
+}
+
+aside .first-block .decor {
+	color: #076e9f;
+	font-weight: bold;
+}
+
+aside .second-block-wrap {
+	overflow: hidden;
+	font-family: 'Arial';
+	font-size: 0.625rem;
+	font-weight: bold;
+	margin: 10px 0 10px;
+}
+
+aside .second-block {
+	float: right;
+	width: 200px;
+	height: 220px;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding: 18px 15px 26px 0px;
+}
+
+aside .second-block h4 {
+	text-transform: uppercase;
+    font-size: 1.375rem;
+    color: #076e9f;
+}
+
+aside .second-block img {
+	float: left;
+	width: 50px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+aside .second-block span {
+	display: block;
+}
+
+aside .second-block .description {
+	margin: 6px 0 4px;
+}
+
+aside .second-block .comments {
+	font-weight: normal;
+	font-style: italic;
+}
+
+aside .second-block .comments:before {
+	vertical-align: middle;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 7px;
+	content: "";
+	background: url('../pic/likes-comments.png') no-repeat;
+	background-position: 0 0;
+	cursor: pointer;
+
+}
+
+aside .third-block {
+	font-family: Arial;
+	float: right;
+	width: 200px;
+	height: 180px;
+	padding: 18px 15px 26px 0px;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc; 
+}
+
+aside .third-block table {
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 0.625rem;
+}
+
+aside .third-block table th {
+	font-size: 0.625rem;
+	background: #076e9f;
+	padding: 5px 10px;
+	color: #fff;
+	border: 1px solid white;
+}
+
+aside .third-block table td {
+	background: #c7e9fa;
+	padding: 5px 10px;
+	border: 1px solid white;
+}
+
+aside .third-block h4 {
+	font-family: 'LeagueGothic-Regular';
+	text-transform: uppercase;
+    font-size: 1.375rem;
+    color: #076e9f;
+    margin-bottom: 10px;
+}
+
+aside .third-block table td:nth-child(3n) {
+	width: 14px;
+	height: 10px;
+	background-image: url(../pic/table.png);
+	background-repeat: no-repeat;
+}
+
+aside .third-block .diagram-1 {
+	background-position: 15px 3px;
+}
+
+aside .third-block .diagram-2 {
+	background-position: 15px -16px;
+}
+
+aside .third-block .diagram-3 {
+	background-position: 15px -36px;
+}
+
+section.post {
+	position: relative;
+	top: -13px;
+    border-top: 3px solid #22aaec;
+    background: #fff;
+	float: left;
+	width: 85%;
+	height: 583px;
+	border-bottom: 1px dotted #ccc;
+}
+
+section.post .top-post {
+	position: absolute;
+	float: left;
+	width: auto;
+	border-right: 1px dotted #ccc;
+	border-bottom: 1px dotted #ccc;
+	padding-left: 30px; 
+	height: 200px;
+}
+
+section.post .top-post .title {
+	text-transform: uppercase;
+	font-size: 2rem;
+	margin-top: 30px;
+	color: #076e9f;
+}
+
+section.post .top-post img {
+	float: left;
+	margin-top: 12px;
+}
+
+section.post .top-post .description {
+	position: relative;
+	font-family: Arial;
+	font-size: 0.625rem;
+	font-weight: normal;
+	height: 69%;
+	width: auto;
+	padding: 12px 30px 30px 140px;
+	line-height: 1.3rem;
+}
+
+
+section.post .top-post .description > a {
+	position: absolute;
+	left: 140px;
+	bottom: 15px;
+	font-family: Arial;
+	display: block;
+	box-shadow:0px 1px 1px #469BBF;
+	color: #fff;
+	font-size: 0.625rem;
+	padding: 3px 13px;
+	border: 1px solid #045279;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom, #0879A8 0%, #066698 100%);
+	text-shadow: 0 2px 1px #222;
+}
+
+section.post .top-post .likes_comments {
+	position: absolute;
+	right: -7px;
+	bottom: 15px;
+	text-align: center;
+	background: #90d4f5;
+	width: 180px;
+	padding: 5px 0;
+}
+section.post .top-post .likes_comments a {
+	display: inline-block;
+}
+
+section.post .top-post .likes_comments:after {
+	position: absolute;
+	display: inline-block;
+	content: "";
+	width: 0;
+	height: 0;
+	right: 0;
+    bottom: -6px;
+	border-style: solid;
+	border-width: 6px 6px 0 0;
+	border-color: #076f9f transparent transparent transparent;
+}
+
+section.post .likes_comments .likes-w,
+section.post .likes_comments .comments-w {
+	margin: 0 5px;
+	color: #3084b1;
+	font-weight: bold;
+}
+
+section.post .likes_comments .likes-w:before {
+	display: inline-block;
+	vertical-align: sub;
+	content: "";
+	background: url(../pic/likes-comments.png);
+	background-position: -30px 0;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+
+
+}
+
+section.post .likes_comments .comments-w:before {
+	display: inline-block;
+	vertical-align: sub;
+	content: "";
+	background: url(../pic/likes-comments.png);
+	background-position: -54px 0;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+section.post .middle-post {
+	margin-top: 200px;
+}
+
+section.post .middle-post .left {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 1%;
+	padding-top: 25px;
+	padding-left: 30px;
+	float: left;
+	height: 215px;
+	width: 49%;
+	border-radius: 20px 0 0 0;
+	background: #eaeaea;
+}
+
+section.post .middle-post .left:before,
+section.post .middle-post .left:after {
+	
+}
+
+section.post .middle-post .left:after {
+	
+}
+
+section.post .middle-post .right {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 1%;
+	padding-top: 25px;
+	padding-left: 30px;
+	float: right;
+	height: 215px;
+	width: 49%;
+	border-radius: 20px 0 0 0;
+	background: #eaeaea;
+}
+
+section.post .middle-post .left .title,
+section.post .middle-post .right .title {
+	display: block;
+	font-family: 'LeagueGothic-Regular';
+	text-transform: uppercase;
+	font-size: 1.375rem;
+	color: #076e9f;
+}
+
+section.post .middle-post .left .subtitle,
+section.post .middle-post .right .subtitle {
+	margin-top: 3px;
+	display: block;
+	font-family: Arial;
+	font-size: 0.625rem;
+	color: #828282;
+}
+
+section.post .middle-post .left .color,
+section.post .middle-post .right .color {
+	font-family: Arial;
+	font-size: 0.625rem;
+	font-weight: bold;
+	color: #076e9f;
+}
+
+section.post .middle-post .left .description,
+section.post .middle-post .right .description{
+	display: block;
+	font-family: Arial;
+	font-size: 0.625rem;
+	color: #5c5c5c;
+	margin-top: 34px;
+	line-height: 1.3rem;
+	padding-right: 20%;
+}
+section.post .middle-post .right .description {
+	margin-top: 10px;
+}
+
+section.post .middle-post .left .down,
+section.post .middle-post .right .down {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: #f4f3f3;
+	height: 30px;
+}
+
+section.post .middle-post .left .down .like, .right .like{
+	display: inline-block;
+	position: absolute;
+	right: 70px;
+	font-family: Arial;
+	font-size: 0.625rem;
+	font-weight: bold;
+	color: #076e9f;
+}
+section.post .middle-post .left .down .comment, .right .comment {
+	position: absolute;
+	right: 15px;
+	font-family: Arial;
+	font-size: 0.625rem;
+	font-weight: bold;
+	color: #076e9f;
+} 
+
+section.post .middle-post .left .down .like:before, .comment:before,
+section.post .middle-post .right .down .like:before, .comment:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -82px 0;
+	vertical-align: bottom;
+	background-image: url(../pic/likes-comments.png);
+
+}
+
+section.post .middle-post .bottom {
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	right: 0;
+	height: 80px;
+	line-height: 80px;
+	font-family: Arial;
+	font-size: 0.75rem;
+	color: #636363;
+	background-image: linear-gradient(to bottom, #EAEAEA 0%, #f4f3f3 100%);
+}
+
+footer .title {
+	display: inline-block;
+	font-family: 'LeagueGothic-Regular';
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: #076e9f;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-left: 35px;
+}
+
+footer .map img {
+	max-height: 325px;
+	width: 100%;
+}
+
+footer .nav-bottom {
+	overflow: hidden;
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 25px;
+}
+
+footer .nav-bottom .logo {
+	text-transform: uppercase;
+	float: left;
+	color: #076e9f;
+	font-size: 1rem;
+}
+
+footer .nav-bottom .logo span {
+	color: #22aaec;
+}
+
+footer .nav-bottom ul {
+	overflow: hidden;
+	float: right;
+}
+
+footer .nav-bottom ul li {
+	float: left;
+	margin-right: 30px;
+}
+
+footer .nav-bottom ul li:last-child {
+	margin-right: 0;
+}
+
+footer .nav-bottom a {
+	font-weight: bold;
+	color: #787878;
+	display: block;
+	font-family: Arial;
+	font-size: 0.625rem;
+    text-transform: uppercase;
+}
+
+footer .nav-bottom a:hover {
+	text-decoration: underline;
+}
+
+footer .subtitle {
+	font-weight: bold;
+	color: #787878;
+	margin: 15px 0;
+	display: block;
+	text-align: center;
+	font-family: Arial;
+	font-size: 0.625rem;
+    text-transform: uppercase;
+}
+
+
+
+
+		/*MEDIA*/
+
+@media all and (max-width: 1538px) {
+	section.post {width: 80%;}
+}
+
+@media all and (max-width: 1150px) {
+	section.post {width: 77%;}
+}

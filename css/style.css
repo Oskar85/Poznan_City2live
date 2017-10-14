@@ -517,15 +517,6 @@ section.post .middle-post .left {
 	background: #eaeaea;
 }
 
-section.post .middle-post .left:before,
-section.post .middle-post .left:after {
-	
-}
-
-section.post .middle-post .left:after {
-	
-}
-
 section.post .middle-post .right {
 	position: relative;
 	margin-top: 20px;
@@ -607,8 +598,8 @@ section.post .middle-post .left .down .comment, .right .comment {
 	color: #076e9f;
 } 
 
-section.post .middle-post .left .down .like:before, .comment:before,
-section.post .middle-post .right .down .like:before, .comment:before {
+section.post .middle-post .left .down .like:before,
+section.post .middle-post .right .down .like:before {
 	content: "";
 	display: inline-block;
 	width: 20px;
@@ -617,6 +608,17 @@ section.post .middle-post .right .down .like:before, .comment:before {
 	vertical-align: bottom;
 	background-image: url(../pic/likes-comments.png);
 
+}
+
+section.post .middle-post .left .comment:before,
+section.post .middle-post .right .comment:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-position: -108px 0;
+	vertical-align: bottom;
+	background-image: url(../pic/likes-comments.png);
 }
 
 section.post .middle-post .bottom {

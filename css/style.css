@@ -616,7 +616,7 @@ section.post .middle-post .right .comment:before {
 	display: inline-block;
 	width: 20px;
 	height: 20px;
-	background-position: -108px 0;
+	background-position: -108px 1px;
 	vertical-align: bottom;
 	background-image: url(../pic/likes-comments.png);
 }
